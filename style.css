@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lato:wght@400;700;900&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+
 }
 
 
@@ -16,34 +16,34 @@
     text-transform: uppercase;
 }
 /* ------------ hero section ----------------------- */
-
-.hero-wrapper{
-    max-width: 1400px;
-    width: 100%;
+.main-container{
+    background: url(./images/Orange\ Gradient.png);
+    background-size: cover;
 }
 
 .hero-container {
+    font-family: 'Lato', sans-serif;
     width: 100%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   
   .hero-wrapper {
     align-items: center;
     width:100%;
-    max-width: 1400px;
+    padding: 0 100px;
+   
     display: flex;
     justify-content: space-between;
   }
   
   
   .right-watch-image {
-    width: 550px;
-  }
-  
+    width: 500px;
+    margin-top: 130px;
+}
 
 .img-one {
     width: 120px;
@@ -77,7 +77,6 @@ img {
 
 img.star {
     width: 17px;
-    /* letter-spacing: 7px; */
 }
 
 
@@ -104,7 +103,7 @@ h1 {
   }
   
   h1.hero-heading {
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     color: black;
   }
 
@@ -121,7 +120,7 @@ h1 {
     background: #000;
     color: #fff;
     text-transform: uppercase;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .interest-text{
@@ -141,21 +140,23 @@ h1 {
 /* features container */
 
 
-.features-section{
+.features-section {
+    font-family: 'Lato', sans-serif;
     width: 100%;
+    padding: 0 100px;
     display: flex;
     justify-content: center;
 }
-
-.features-wrapper{
+.features-wrapper {
     width: 100%;
-    height: 100vh;
-    max-width: 1400px;
+    /* height: 100vh; */
+    /* max-width: 1400px
+px
+; */
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
-
 .image-cont-feature{
     padding-top: 100px;
     width: 40%;
@@ -164,12 +165,10 @@ h1 {
 .image-cont-feature img{
     width: 100%;
 }
-
-.text-cont-feature{
+.text-cont-feature {
     width: 50%;
-    padding-left: 50px;
+    padding-left: 180px;
 }
-
 .feature-heading {
     font-size: 64px;
     display: inline-block;
@@ -179,16 +178,16 @@ h1 {
     text-transform: uppercase;
     margin-bottom: 30px;
 }
+
 .all-features p {
     display: flex;
     align-items: flex-start;
     margin-bottom: 30px;
-    font-size: 21px;
+    font-size: 16px;
     font-weight: 600;
     color: #000000;
     line-height: 24px;
 }
-
 .material-symbols-outlined {
     font-family: 'Material Symbols Outlined';
     font-weight: normal;
@@ -232,10 +231,12 @@ span.material-symbols-outlined {
 
 /* main pros section */
 .container{
+    font-family: 'Lato', sans-serif;
     display: flex;
     position: relative;
     flex-direction: column;
-    background: rgb(18, 18, 18);
+    background: url(./images/Rectangle\ 1.png);
+    background-size: cover;
 }
 .main-container-pros{
     width: 100%;
@@ -255,12 +256,6 @@ span.material-symbols-outlined {
 
 .text-container-pros {
     width: 30%;
-}
-
-
-.pros-description{
-    color: #fff;
-    font-size: 20px;
 }
 
 .pros-heading{
@@ -285,15 +280,11 @@ img.watch-images-pro1 {
     width: 1439px;
 }
 
-.pros-container2{
-    width: 100%;
-}
-
-
 
 /*------------------- skeletonized ----------------*/
 
 .skeletonized-contianer{
+    font-family: 'Lato', sans-serif;
   position: relative;
   height: 100vh;
   display: flex;
@@ -341,6 +332,7 @@ img.watch-images-pro1 {
 /* grid section */
 
 .grid-section{
+    font-family: 'Lato', sans-serif;
     width: 100%;
     height: 100vh;
 }
@@ -412,6 +404,7 @@ span.heading {
 
 
 .review-container{
+    font-family: 'Lato', sans-serif;
     background: #000;
     width: 100%;
     display: flex;
@@ -467,6 +460,8 @@ span.heading {
 
 
 .second-grid-container{
+    
+    font-family: 'Lato', sans-serif;
     width: 100%;
     background: #000;
 }
@@ -508,6 +503,7 @@ span.heading {
 
 
 .slider-section-container{
+    font-family: 'Lato', sans-serif;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -537,7 +533,78 @@ span.heading {
     font-size: 58px;
     font-weight: 800;
     font-family: 'Lato', sans-serif;
-    line-height: 75px;
+    line-height: 70px;
     letter-spacing: 1px;
     color: #fff;
+}
+
+
+/* ------- brand msg section -----------*/
+
+
+.brand-msg-container{
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    position: relative;
+    background: #000;
+}
+
+
+.brand-msg-wrapper{
+    max-width: 1536px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    align-items: center;
+}
+
+.item-one{
+    color: #fff;
+    margin-left: 100px;
+    width: 500px;
+    z-index: 99;
+}
+
+.item-one h1{
+    margin-bottom: 50px;
+}
+
+.item-one span{
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.item2-brand img{
+ width: 100%;
+}
+
+/* footer section */
+
+.footer-watches-container{
+    width: 100%;
+    background: rgb(0, 0, 0);
+}
+
+.footer-wrapper {
+    display: grid;
+    align-items: baseline;
+    gap: 50px;
+    padding: 100px 100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.name{
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.align-center{
+    text-align: center;
+    height: 100%;
+    font-size: 58px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.style-img{
+    padding-bottom: 30px;
 }
